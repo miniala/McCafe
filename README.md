@@ -7,7 +7,7 @@ Web路由、状态管理、模版框架
 
 方法：
 
-  createRouter: 创建路由
+  ##createRouter: 创建路由
   
     McCafeRouter.createRouter([
       {'path': '/index'},
