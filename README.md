@@ -7,7 +7,7 @@ Web路由、状态管理、模版框架
 
 使用：
   
-  var McCafeRouter = require('./McMcCafe_Router.js');
+    var McCafeRouter = require('./McMcCafe_Router.js');
   
 方法：
 
@@ -35,38 +35,38 @@ Web路由、状态管理、模版框架
 
 使用：
   
-  var McCafeState = require('./McCafe_State.js');
-  var insMcCafeState = new McCafeState({
-    key: {
-      val: 0,
-      callback: [callback]
-    },
-  });
+    var McCafeState = require('./McCafe_State.js');
+    var insMcCafeState = new McCafeState({
+      key: {
+        val: 0,
+        callback: [callback]
+      },
+    });
   
 方法：
   
 ### setState: 设置状态
 
-  insState.getState({
-    key: 'val'
-  });
+    insState.setState({
+      key: 'val'
+    });
   
 ### getState: 获取状态
   
-  insState.getState('key');
+    insState.getState('key');
 
 ##  模版：McCafe_Tmpl.js
 
 使用：
   
-  var McCafeTmpl = require('./McCafe_Tmpl.js');
+    var McCafeTmpl = require('./McCafe_Tmpl.js');
 
 方法：
   
 ### tmpl: 编译模版
   
-  var html = McCafeTmpl.tmpl('<div><%=name%></div>', {name: 'Memo'});
+    var html = McCafeTmpl.tmpl('<div><%=name%></div>', {name: 'Memo'});
 
 ### render: 渲染模版
   
-  McCafeTmpl.render('.container', '<div><%=name%></div>', {name: 'Memo'});
+    McCafeTmpl.render('.container', '<div><%=name%></div>', {name: 'Memo'});
