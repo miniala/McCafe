@@ -1,13 +1,13 @@
 # McCafe
 Web路由、状态管理、模版框架
 
-路由：McCafe_Router.js
+##  路由：McCafe_Router.js
 
 路由格式：#/index/:param
 
 方法：
 
-##  createRouter: 创建路由
+###  createRouter: 创建路由
   
     McCafeRouter.createRouter([
       {'path': '/index'},
@@ -15,18 +15,18 @@ Web路由、状态管理、模版框架
       {'path': '/detail/:index'},
     ])
     
-  goTo: 路由跳转
+###  goTo: 路由跳转
   
     McCafeRouter.goTo('/detail/1');
   
-  getRouter: 获取当前路由
+###  getRouter: 获取当前路由
   
     McCafeRouter.getRouter();
   
-  getParams: 获取路由参数
+###  getParams: 获取路由参数
   
     McCafeRouter.getParams('index');
 
-状态管理：McCafe_State.js
+##  状态管理：McCafe_State.js
 
-模版：McCafe_Tmpl.js
+##  模版：McCafe_Tmpl.js
