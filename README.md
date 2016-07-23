@@ -60,13 +60,13 @@ Web路由、状态管理、模版框架
 使用：
   
   var McCafeTmpl = require('./McCafe_Tmpl.js');
-  
+
 方法：
   
 ### tmpl: 编译模版
   
   var html = McCafeTmpl.tmpl('<div><%=name%></div>', {name: 'Memo'});
-  
-### render: 渲染模版
 
+### render: 渲染模版
+  
   McCafeTmpl.render('.container', '<div><%=name%></div>', {name: 'Memo'});
