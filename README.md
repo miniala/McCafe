@@ -17,7 +17,11 @@ Web路由、状态管理、模版框架
     
   goTo: 路由跳转
   
+    McCafeRouter.goTo('/detail/1')
+  
   getRouter: 获取当前路由
+  
+    McCafeRouter.getRouter()
   
   getParams: 获取路由参数
 
