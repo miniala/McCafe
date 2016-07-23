@@ -14,8 +14,11 @@ Web路由、状态管理、模版框架
       {'path': '/list'},
       {'path': '/detail/:index'},
     ])
+    
   goTo: 路由跳转
+  
   getRouter: 获取当前路由
+  
   getParams: 获取路由参数
 
 状态管理：McCafe_State.js
