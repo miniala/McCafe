@@ -14,9 +14,9 @@ Web路由、状态管理、模版框架
 ###  createRouter: 创建路由
   
     McCafeRouter.createRouter([
-      {'path': '/index'},
-      {'path': '/list'},
-      {'path': '/detail/:index'},
+      {path: '/', component: indexComponent},
+      {'path': '/list', component: listComponent},
+      {'path': '/detail/:index', component: detailComponent},
     ])
     
 ###  goTo: 路由跳转
