@@ -22,7 +22,7 @@
 var McCafeRouter = (function () {
 	var routerState = {
 		routers : [],     // [{'path': '/index', 'params': ['a', 'b'], 'component': Function}]
-		path    : '/',    // 路径
+		path    : '/',    // 路径 
 		params  : {},     // 参数
 		history : [],     // 路由历史
 	}
