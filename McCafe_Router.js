@@ -68,7 +68,7 @@ var McCafeRouter = (function () {
 				_reg += '/.{1,}';
 			}
 			_reg += '$';
-			// 是否匹配当前路由
+			// 是否匹配当前路由 
 			if ((new RegExp(_reg)).test(_router)) {
 				// 设置 path
 				routerState.path = _path;
