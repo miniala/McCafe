@@ -62,6 +62,7 @@ var McCafeRouter = (function () {
 			var _routersItem = _routers[i];
 			var _path = _routersItem.path;
 			var _params = _routersItem.params;
+			// 匹配路径正则
 			var _reg = '^' + _path;
 			for (var j=0, ll=_params.length; j<ll; j++) {
 				_reg += '/.{1,}';
