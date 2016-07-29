@@ -23,13 +23,13 @@ Web路由、状态管理、模版框架
   
     McCafeRouter.goTo('/detail/1');
   
-###  getRouter: 获取当前路由
+###  getPath: 获取当前路径
   
     McCafeRouter.getRouter();
   
-###  getParams: 获取路由参数
+###  getParam: 获取路由参数
   
-    McCafeRouter.getParams('index');
+    McCafeRouter.getParam('index');
 
 ##  状态管理：McCafe_State.js
 
