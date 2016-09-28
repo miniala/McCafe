@@ -3,7 +3,7 @@ Web路由、状态管理、模版框架
 
 ##  路由：McCafe_Router.js
 
-路由格式：#/index/:param
+路由格式：/index/:param
 
 使用：
   
