@@ -1,0 +1,4 @@
+(function (name, definition) {if (typeof exports !== 'undefined' && typeof module !== 'undefined') {module.exports = definition();} else if (typeof define === 'function' && typeof define.amd === 'object') {define(definition);} else if (typeof define === 'function' && typeof define.petal === 'object') {define(name, [], definition);} else {this[name] = definition();}})('tmpl', function (tmpl) {return function anonymous(obj
+/**/) {
+var p=[];with(obj){p.push('<h1>Component-2</h1><ul>  <li><input type="text" value="', height,'" id="height" /></li>  <li><input type="text" value="', weight,'" id="weight" /></li>  <li><button id="btn-2">BUTTON 2</Button></li>  <li><button id="btn-to-index">Go To Index</Button></li></ul>');} return p.join('');
+}})

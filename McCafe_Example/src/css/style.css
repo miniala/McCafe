@@ -1,0 +1,32 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+body {
+  max-width: 640px;
+  min-height: 100%;
+  margin: 0 auto;
+  font-size: 14px;
+  background:transparent;
+  -webkit-user-select:none;
+}
+h1, h2 {
+  margin: 1rem 0;
+}
+.app {
+
+}
+.app {
+  padding: 10px;
+}
+.app {
+  padding: 10px;
+}
+.app li + li{
+  margin-top: 10px;
+}
