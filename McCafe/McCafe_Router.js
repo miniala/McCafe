@@ -157,6 +157,6 @@
 		}
 	})()
 
-	module.exports = McRouter;
+	module.exports = McRouter; 
 
 })));
